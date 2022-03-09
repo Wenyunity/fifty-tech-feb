@@ -3,7 +3,7 @@
 Here were all rules, 1-50.
 
 1. Does the response have an e?
-2. Does the response have less than 9 2's?
+2. Does the response have less than 9 e's?
 3. Does the response begin and end with different characters?
 4. Does the second character in the response appear later?
 5. Does the response have a word with one character?
