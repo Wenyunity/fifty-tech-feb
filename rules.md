@@ -53,7 +53,7 @@ Here were all rules, 1-50.
 49. Is the sum of appearances of ZXCVBNM in the response a square number? (0 and 1 pass)
 50. Does the response not follow all of the following rules? *{See Errors}*
 - have exactly 100 characters
-- the same character occupying positions (n, mod(3(n + 1), 50) for n between (and including) 0 and 49
+- the same character must occupy indices n and mod(3(n + 1), 50) for n between (and including) 0 and 49; each n can use a different character.
 - no character appearing more than twice
 
 ## Errors
