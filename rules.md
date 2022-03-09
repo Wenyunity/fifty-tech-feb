@@ -56,6 +56,9 @@ Here were all rules, 1-50.
 ## Errors
 
 23\. The code does not check that C exists in the response. Therefore, responses with only "B" will pass.
+
 34\. If x is the first character, this tech multiplies the charcode of "x" and the third character.
+
 36 & 37. Non-alphabetic characters are ignored for this, but this may create an empty string. An empty string has not been tested.
+
 50\. indexOf and lastIndexOf seem to have some formatting characters. This may cause errors.
