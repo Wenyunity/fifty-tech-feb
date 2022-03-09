@@ -51,7 +51,10 @@ Here were all rules, 1-50.
 47. Does the response have two of the same character that is its charcode apart?
 48. Does the response's length have 10 or more factors?
 49. Is the sum of appearances of ZXCVBNM in the response a square number? (0 and 1 pass)
-50. Does the response have exactly 100 characters *and* does the same character occupy positions (n, mod(3(n + 1), 50) for n between (and including) 0 and 49 *and* no character may appear more than twice? *{See Errors}*
+50. Does the response not follow all of the following rules?
+- have exactly 100 characters
+- the same character occupying positions (n, mod(3(n + 1), 50) for n between (and including) 0 and 49
+- no character appearing more than twice *{See Errors}*
 
 ## Errors
 
